@@ -33,16 +33,7 @@ public class FramePinjaman extends javax.swing.JFrame {
         txtPenerbit.setText("");
         txtTahunTerbit.setText("");
     }
-    
-//    public void isitanggal(){
-//        Calendar calendar = Calendar.getInstance();
-//        SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
-//        String date = format.format(calendar.getTime());
-//        txtPinjam.setText(date);
-//        calendar.add(Calendar.DAY_OF_MONTH, 7);
-//        String date2 = format.format(calendar.getTime());
-//        txtKembali.setText(date2);
-//    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

@@ -14,19 +14,12 @@ import java.util.Calendar;
 public class FramePinjaman extends javax.swing.JFrame {
 
     ControlerMahasiswa cm = new ControlerMahasiswa();
-    Mahasiswa mhss = null;
     /**
      * Creates new form FormPinjaman2
      */
     public FramePinjaman() {
         initComponents();
         setTitle("Peminjaman");
-//        try{
-//            cm.add(new Mahasiswa("Mahendra", "21104410039", "Teknik Informatika", "Dilan 1990", 
-//                    "3 Februari 2023", "10 Februari 2023"));
-//        } catch (Exception e) {
-//            
-//        }
     }
     
     public void hapusisitext(){

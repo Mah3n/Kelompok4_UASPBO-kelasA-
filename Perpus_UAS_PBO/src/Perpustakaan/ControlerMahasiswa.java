@@ -17,10 +17,6 @@ public class ControlerMahasiswa extends AbstractTableModel {
     ArrayList<Mahasiswa> mahasiswa = new ArrayList<>();
     String[] header = {"Nama", "Nim", "Prodi", "Judul Buku", "Tanggal Pinjam", "Tanggal Kembali"};
     
-    public void setListData(ArrayList<Mahasiswa> mahasiswa){
-        this.mahasiswa = mahasiswa;
-        fireTableDataChanged();
-    }
     
     public void add(Mahasiswa mhs){
         mahasiswa.add(mhs);

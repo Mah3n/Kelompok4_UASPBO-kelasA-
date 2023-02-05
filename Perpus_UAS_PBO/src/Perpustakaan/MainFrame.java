@@ -6,7 +6,7 @@ package Perpustakaan;
 
 /**
  *
- * @author MAHENDRA
+ * @author Kelompok4
  */
 public class MainFrame extends javax.swing.JFrame {
 
